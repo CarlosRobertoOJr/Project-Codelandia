@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lexend+Deca&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  min-height: 100vh;
+  background-color: #F3F5F7;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background: linear-gradient(88.27deg, #574ae8 0%, #3ea1db 100%);
+}
+
+.nav {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 25px;
+  font-size: 24px;
+  color: #fff;
+  font-family: "lexend deca";
+}
+
+.search-box {
+  width: 60%;
+  padding: 25px;
+  display: flex;
+}
+
+.search-box img {
+  width: 35px;
+  padding-left: 8px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px 0px 0px 5px;
+}
+
+.search-box input {
+  font-size: 18px;
+  font-family: "inter";
+  color: #fff;
+  padding: 8px;
+  border: none;
+  position: relative;
+  width: 100%;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 0px 5px 5px 0px;
+}
+
+.main-content{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  width: 100%;
+  gap: 20px;
+
+}
+
+.item{
+  background-color: #FFFFFF;  ;
+  width: 60%;
+  text-align: left;
+  padding: 15px;
+  border-radius: 5px;
+  line-height: 300%;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+
+.date{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.text-date{
+  font-size: 16px;
+  color: #717171;
+  font-family: 'Lexend Deca';
+  justify-content: space-between;
+  line-height: 300%;
+}
+
+.text-title{
+  font-size: 26px;
+  color: #1A202C;
+  font-weight: 400;
+  font-family: 'Lexend Deca';
+}
+
+.text-content{
+  font-size: 18px;
+  font-family: 'Lexend Deca';
+  font-weight: 400;
+  color: #717171;
+}
+
+@media (max-width: 800px) {
+  .nav {
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .search-box {
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+  }
+  .search-box input {
+    height: 40px;
+  }
+
+  .text-date{
+    font-size: 14px;
+  }
+
+  .text-title{
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .item{
+    width: 90%;
+    line-height: 150%;
+    margin-bottom: 15px;
+  }
+
+  .text-content{
+    font-size: 14px;
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    color: #717171;
+  }
+  
+}
